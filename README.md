@@ -26,6 +26,7 @@ Below are a list of improvements made to the HTML source code:
 - Modified the main image tag from <div> to <figure>, and added a <figcaption> to aid with accessibility. Note that<figcaption> is made to "display: none;" so it does not visually appear on the webpage, but accessibility options will allow it to be read. 
 - Fixed the broken link for Search Engine Optimization in the new <nav> segment, so it leads to the correct part of the webpage. 
 - Added &nbsp;&nbsp; to separate each link in the <nav> segment. 
+- Added class="footer h2" to style <h2> in the footer. 
 
 ## Enhancements made (CSS)
 - Added comments to highlight key areas, for easier notation for future developers who may work on this code.
