@@ -24,6 +24,8 @@ body {
     color: #d9dcd6;
 }
 
+/* modified from div to nav to follow updated HTML */
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* hero class is for the primary/main background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +61,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-/* added figcaption display none to hide the figure caption. */
-figcaption {
-    display: none;
-}
-
 
 /* added a float-left id for a preset for items to float left. */
 .float-left {
@@ -84,6 +81,7 @@ figcaption {
     margin-left: 20px;
 }
 
+/* configuration for SEO section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,6 +100,7 @@ figcaption {
     max-height: 200px;
 }
 
+/* configuration for online reputation management section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +119,7 @@ figcaption {
     max-height: 200px;
 }
 
+/* configuration for social media marketing section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
