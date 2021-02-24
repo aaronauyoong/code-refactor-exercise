@@ -1,13 +1,16 @@
+/* universal selector to set no margin and padding for border box */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body background colour is set to #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* header class configuration */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,17 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* h1 under header class will have the configs below */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* header class that contains h1, with class="seo" will have the below config */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* modified from div to nav to follow updated HTML */
-
+/* modified from div to nav to follow updated semantic HTML */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,20 +38,24 @@ body {
     font-size: 20px;
 }
 
+/* nav unordered list will have bullet points with no style */
 .header nav ul {
     list-style-type: none;
 }
 
+/* sets the listed items under the nav's unordered list to be inline-block and have a left margin of 25px */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* no decoration for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* designating 16px font size for paragraphs */
 p {
     font-size: 16px;
 }
@@ -81,7 +89,7 @@ p {
     margin-left: 20px;
 }
 
-/* configuration for SEO section */
+/* configuration for SEO section of the webpage */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,7 +108,7 @@ p {
     max-height: 200px;
 }
 
-/* configuration for online reputation management section */
+/* configuration for class="online reputation management" section of webpage */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +127,7 @@ p {
     max-height: 200px;
 }
 
-/* configuration for social media marketing section */
+/* configuration for social media marketing section of webpage */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,7 +146,7 @@ p {
     max-height: 200px;
 }
 
-/* added a benefits id. */
+/* added a benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,23 +158,31 @@ p {
     background-color: #2589bd;
 }
 
+/* benefit-lead class will have a bottom margin of 32px, and text color #ffffff */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets h3 tags to be center with a bottom margin of 10px */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets image to be block display, top & bottom margin 10px and left/right be auto, max width of 150px */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-lead {
+/* added a benefit-brand class */
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* added a benefit-brand id. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -178,12 +194,12 @@ p {
     max-width: 150px;
 }
 
-.benefit-brand {
+/* added a benefit-cost class */
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* added a benefit-cost id. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -193,11 +209,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .footer {
