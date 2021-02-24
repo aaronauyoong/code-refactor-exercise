@@ -23,7 +23,7 @@ Below are a list of improvements made to the HTML source code:
 - Added a <meta> tag to aid in search engine optimisation. Attributes added include keywords & description. 
 - Added semantic elements to replace the generic <div> in the original source code. Semantic elements include <header>, <nav>,  <section>, <article>, <footer>.
 - Added proper indentation for easier visualisation of parent and child tags. 
-- Modified the main image tag from <div> to <figure>, and added a <figcaption> to aid with accessibility. Note that<figcaption> is made to "display: none;" so it does not visually appear on the webpage, but accessibility options will allow it to be read. 
+- Main image tag stayed as <div>. Added a <title> attribute to aid with accessibility.
 - Fixed the broken link for Search Engine Optimization in the new <nav> segment, so it leads to the correct part of the webpage. 
 - Added &nbsp;&nbsp; to separate each link in the <nav> segment. 
 - Added class="footer h2" to style <h2> in the footer. 
