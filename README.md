@@ -19,19 +19,19 @@ Below are the requirements for this refactoring project.
 ## Enhancements made (HTML)
 Below are a list of improvements made to the HTML source code:
 - Added comments to highlight key areas, for easier notation and reference for future developers who may work on this code.
-- Modified title to <title>Horiseon Social Solution Services</title>.
-- Added a <meta> tag to aid in search engine optimisation. Attributes added include keywords & description. 
-- Added semantic elements to replace the generic <div> in the original source code. Semantic elements include <header>, <nav>,  <section>, <article>, <footer>.
+- Modified webpage title to <title>Horiseon Social Solution Services</title>.
+- Added a meta tag to aid in search engine optimisation. Attributes added include keywords & description. 
+- Added semantic elements to replace the generic div in the original source code. Semantic elements include header, nav, section, article, footer.
 - Added proper indentation for easier visualisation of parent and child tags. 
-- Added a <title> attribute to the div tag for the primary background image to aid with accessibility.
-- Fixed the broken link for Search Engine Optimization in the new <nav> segment, so it leads to the correct part of the webpage. 
-- Added &nbsp;&nbsp; to separate each link in the <nav> segment. 
-- Added class="footer h2" to style <h2> in the footer. 
+- Added a title attribute to the div tag for the primary background image to aid with accessibility.
+- Fixed the broken link for Search Engine Optimization in the new nav segment, so it leads to the correct part of the webpage. 
+- Added '&nbsp &nbsp' to separate each link in the nav segment. 
+- Added class="footer h2" to style h2 in the footer. 
 
 ## Enhancements made (CSS)
 - Added comments to highlight key areas, for easier notation for future developers who may work on this code.
 - Re-ordered/rearranged the style sheet, so it follows a logical & clear structure.
-- Added a <nav> CSS segment so the new section can fit with the website theme. 
+- Added a nav CSS segment so the new section can fit with the website theme. 
 
 
 ---
