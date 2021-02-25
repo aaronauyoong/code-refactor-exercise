@@ -26,12 +26,12 @@ Below are a list of improvements made to the HTML source code:
 - Added a title attribute to the div tag for the primary background image to aid with accessibility.
 - Fixed the broken link for Search Engine Optimization in the new nav segment, so it leads to the correct part of the webpage. 
 - Added '&nbsp &nbsp' to separate each link in the nav segment. 
-- Added class="footer h2" to style h2 in the footer. 
 
 ## Enhancements made (CSS)
 - Added comments to highlight key areas, for easier notation for future developers who may work on this code.
 - Re-ordered/rearranged the style sheet, so it follows a logical & clear structure.
 - Added a nav CSS segment so the new section can fit with the website theme. 
+- Condensed repeated code into a single class. New classes include .horiseonbenefits & .maincontent - to simplify CSS. 
 
 
 ---
