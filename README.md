@@ -1,5 +1,7 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Code Refactor
 Project Owner - Aaron Au Yoong
+<br>
+View live link: https://aaronauyoong.github.io/code-refactor-exercise/
 
 ## Introduction
 This is a refactoring assignment, to update a marketing agency's codebase to ensure it follows accessibility standards and optimized for search engines. Currently, the source code does not contain semantic HTML elements, and does not have a clear logical structure of styling and positioning. Additionally, there are no meta tags that would aid in optimizing it for search engines. Additionally, the stylesheet does not follow a logical, sequential structure, making it slightly hard to decipher.
